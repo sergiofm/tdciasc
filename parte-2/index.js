@@ -1,3 +1,4 @@
-var serialGenerator = require('./serialGenerator');
+var serialGeneratorA = require('./serialGenerator');
+var serialGeneratorB = require('./serialGenerator');
 
-console.log(serialGenerator.generate());
+console.log(serialGeneratorA === serialGeneratorB);
